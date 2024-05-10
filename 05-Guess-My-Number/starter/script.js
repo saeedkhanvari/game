@@ -9,7 +9,7 @@ document.querySelector('.check').addEventListener('click', () => {
     document.querySelector('.message').textContent =
       'please enter a  number b itc 🤨‼️';
   } else if (guess === secretNumber) {
-    document.querySelector('.message').textContent = 'you ROCKED 🤯';
+    document.querySelector('.message').textContent = 'you ROC KED 🤯';
     document.querySelector('body').style.backgroundColor = '#60b347';
     document.querySelector('.number').style.width = '30rem';
     document.querySelector('.number').textContent = secretNumber;
