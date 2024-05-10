@@ -7,7 +7,7 @@ document.querySelector('.check').addEventListener('click', () => {
   let guess = Number(document.querySelector('.guess').value);
   if (!guess) {
     document.querySelector('.message').textContent =
-      'please enter a number bitc 🤨‼️';
+      'please enter a  number bitc 🤨‼️';
   } else if (guess === secretNumber) {
     document.querySelector('.message').textContent = 'you ROCKED 🤯';
     document.querySelector('body').style.backgroundColor = '#60b347';
